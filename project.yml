@@ -1,0 +1,14 @@
+name: MarketplaceUI
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "17.0"
+targets:
+  MarketplaceUI:
+    type: application
+    platform: iOS
+    sources: [MarketplaceUI]
+    info:
+      path: MarketplaceUI/Info.plist
+      properties:
+        UILaunchScreen: {}
